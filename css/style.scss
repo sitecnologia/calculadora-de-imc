@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:antiquewhite;
+}
+
+#main {
+    background-color: white;
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    border-radius: 2rem;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    box-shadow: 5px 5px 5px rgba($color: #000000, $alpha: 0.3);
+    position: relative;
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+        font-family: Inter;
+        color: black;
+        font-weight: 900;
+        margin: auto;
+        padding: 5vh 0 3vh;
+        width: 70%;
+    }
+    p {
+        font-family: Inter;
+        font-size: 1.2rem;
+        text-align: justify;
+        margin: 1rem 2rem;
+        color: black;
+    }
+    div {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        input {
+            width: 45%;
+            height: 4rem;
+            font-size: 2rem;
+            text-align: center;
+            border: none;
+            background-color: rgb(239, 239, 239);
+            border-radius: 0.5rem;
+            color: black;
+        }
+        #peso::after {
+            content: "Peso";
+            color: black;
+            font-size: 2rem;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: fit-content;
+            height: fit-content;
+        }
+    }
+    #calcular {
+        font-size: 1.4rem;
+        padding: 0.3rem 3rem;
+        margin: 1rem 50%;
+        transform: translateX(-50%);
+        border: none;
+        border-radius: 0.5rem;
+        background-color: rgb(0, 119, 255);
+        color: white;
+        font-weight: 800;
+    }
+    #resultado {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        h2 {
+            color: black;
+            font-weight: 900;
+            font-size: 2rem;
+            color: inherit;
+        }
+        h3 {
+            font-size: 1.6rem;
+            color: black;
+            color: inherit;
+        }
+    }
+}
+.red {
+    background-color: red;
+    color: white;
+}
+.orange {
+    background-color: orange;
+    color: black;
+}
+.green {
+    background-color: greenyellow;
+    color: black;
+}
+h4 {
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 1rem;
+}

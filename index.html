@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet"> 
+    <title>Índice de Massa Corporal</title>
+</head>
+<body>
+    <section id="main">
+        <h1>Cálculo de Índice de Massa Corporal</h1>
+        <p>Informe abaixo seu peso em kilogramas e sua altura em centímetros. O resultado será feito pela divisão do peso sobre a altura em metros ao quadrado. Após isso, o número resultante será comparado a tabela IMC e dar o resultado final.</p>
+        <form>
+            <div>
+                <input type="number" name="Peso" id="peso" placeholder="Peso" value="">
+                <input type="number" name="Altura" id="altura" placeholder="Altura" value="">
+            </div>
+            <input type="button" id="calcular" value="Calcular" onclick="calcula()">
+        </form>
+        <div id="resultado">
+            <h2></h2>
+            <h3></h3>
+        </div>
+    </section>
+    <h4>Calculadora de IMC © Silas Renner dos Santos</h4>
+    <script src="js/main.js"></script>
+</body>
+</html>
